@@ -1,3 +1,15 @@
+git add XXX
+git commit -m "XXX"
+git reset --hard HEAD^
+git log
+
+git checkout -- file
+git rm test.txt
+
+
+
+
+
 …or create a new repository on the command line
 echo "# learngit" >> README.md
 git init
