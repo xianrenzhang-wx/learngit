@@ -1,15 +1,19 @@
+添加文件到暂存区
 git add XXX
+暂存区到库
 git commit -m "XXX"
+版本回退
 git reset --hard HEAD^
 git log
-
+恢复文件
 git checkout -- file
+删除文件
 git rm test.txt
 
 
 
 
-
+建立仓库
 …or create a new repository on the command line
 echo "# learngit" >> README.md
 git init
@@ -17,7 +21,23 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/xianrenzhang-wx/learngit.git
 git push -u origin master
-
+将程序push到仓库上
 …or push an existing repository from the command line
 git remote add origin https://github.com/xianrenzhang-wx/learngit.git
 git push -u origin master
+
+
+
+分支
+
+创建分支dev
+git branch dev
+切换分支
+git checkout dev
+查看分支
+git branch
+
+合并分支
+git merge dev
+删除分支
+git branch -d dev
